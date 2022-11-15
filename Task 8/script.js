@@ -1,3 +1,5 @@
+"use strict";
+console.log("script.js");
 /* ------------------------------ TASK 8 --------------------------------------------
 Sukurkite klase "Calculator", kuri gebės sukurti objektus su 4 metodais:
 sum(a, b) - priima du skaičius ir grąžina jų sumą.
@@ -25,6 +27,7 @@ class Calculator {
 const c1 = new Calculator();
 let a = 10;
 let b = 15;
+
 console.log("c1.sum(a, b) ===", c1.sum(a, b));
 console.log("c1.subtraction(a, b) ===", c1.subtraction(a, b));
 console.log("c1.multiplication(a, b) ===", c1.multiplication(a, b));

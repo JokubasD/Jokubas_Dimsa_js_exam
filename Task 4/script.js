@@ -1,5 +1,5 @@
-'use strict';
-console.log('script.js');
+"use strict";
+console.log("script.js");
 /* ------------------------------ TASK 4 -----------------------------------
 Parašykite JS kodą, kuris vartotojui atėjus į tinklapį kreipsis į cars.json failą ir 
 atvaizduos visus automobilių gamintojus bei pagamintus modelius. 
@@ -10,10 +10,12 @@ Pastaba: Sukurta kortelė, kurioje yra informacija apie automobilį (brand), tur
 būti stilizuota su CSS ir būti responsive;
 -------------------------------------------------------------------------- */
 
+//Inititalizing
 const ENDPOINT = "cars.json";
 const outputContainer = document.getElementById("output");
 init();
 
+//Main initializing function
 function init() {
   getData(ENDPOINT).then((dataArray) => {
     dataArray.forEach((brandObj) => {
@@ -22,9 +24,7 @@ function init() {
   });
 }
 
-
 //Helper Functions:
-
 function getData(url) {
   return fetch(url)
     .then((response) => response.json())

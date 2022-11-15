@@ -27,5 +27,6 @@ class Movie {
 //Test code
 const m1 = new Movie("Titanic", "John", 1200000000);
 const m2 = new Movie("Breaking Bad", "Jesse", 8000000);
+
 console.log("m1.wasExpensive() ===", m1.wasExpensive());
 console.log("m2.wasExpensive() ===", m2.wasExpensive());

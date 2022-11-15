@@ -21,7 +21,7 @@ let b = division(four, two);
 let c = substraction(three, two);
 let d = multiplication(five, two);
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+console.log('composition(one, four): ', a);
+console.log('division(four, two): ', b);
+console.log('substraction(three, two): ', c);
+console.log('multiplication(five, two): ', d);

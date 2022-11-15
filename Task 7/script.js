@@ -1,5 +1,5 @@
-'use strict';
-console.log('script.js');
+"use strict";
+console.log("script.js");
 /* ------------------------------ TASK 7 -----------------------------------
 Turimas "audi" objektas.
 

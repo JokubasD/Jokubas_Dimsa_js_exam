@@ -65,8 +65,7 @@
   gap: 1rem;
 }
 .imageEl {
-  width: 270px;
-  height: 270px;
+  width: 100%;
   object-fit: cover;
 }
 .userTitle {
@@ -79,4 +78,15 @@
   border: 1px solid rgb(191, 180, 180);
   border-radius: 5px;
   background-color: snow;
+}
+
+@media screen and (min-width: 1000px){
+  .output {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1600px){
+  .output {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

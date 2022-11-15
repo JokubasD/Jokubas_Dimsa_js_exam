@@ -1,5 +1,5 @@
-'use strict';
-console.log('script.js');
+"use strict";
+console.log("script.js");
 /* ------------------------------ TASK 5 -----------------------------------
 Turimas "users" masyvas. 
 
@@ -21,6 +21,7 @@ const users = [
   { id: "8", name: "Simon Peterson", age: 30, hasDog: false },
   { id: "9", name: "Daniel Cane", age: 51, hasDog: true },
 ];
+
 // Users with a dog:
 console.log("Users with a dog ===", filterDogOwners(users));
 
