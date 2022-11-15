@@ -1,3 +1,5 @@
+'use strict';
+console.log('script.js');
 /* ------------------------------ TASK 5 -----------------------------------
 Turimas "users" masyvas. 
 
